@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akansha -Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Pixelify+Sans:wght@500&display=swap" rel="stylesheet">
+   
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            
+                background-image: url('https://i.pinimg.com/564x/27/ff/a9/27ffa91d4cdfe1d67609598030b4c8ab.jpg');
+                background-size: cover; 
+                background-repeat: no-repeat;
+            
+            
+            background-color: black;
+            color: rgb(255, 255, 255);
+            font-family:"Inconsolata" ,"Pixelify+Sans","Dancing+Script";
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            background-color: rgb(2, 2, 2);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 33px;
+        }
+        .left{
+            font-size: 2rem;
+            color: rgb(215, 118, 186);
+            font-family:Inconsolata ;
+        }
+        .firstpart{
+            
+            display: flex;
+            margin: 13vh 0;
+            justify-content: space-around;
+            height: 100%;
+            
+            
+        }
+
+        .firstpart>div{
+            width: 60%;
+           
+           
+
+        }
+        .leftsection{
+            background-color: transparent;
+            margin: 180px 50px;
+           
+            font-size: x-large;
+            width: 30%;
+
+            animation: slideBottom is ease forwards;
+            animation-delay: 1s;
+           
+           
+            
+        }
+        .btn{
+            margin: 20px 02px;
+            padding: 14px;
+            
+            background-color:rgb(111, 138, 189);
+            color: white;
+            border-radius: 6px ;
+            border:none;
+            cursor: pointer;
+            font-size: 20;
+            transition: background-color 0.3s ease;
+             text-decoration: none;
+             
+             display: inline-block;
+             line-height: 30px;
+            
+            
+           
+              
+        }
+        .btn:hover{
+            background-color: #0056b3;
+        }
+        
+
+        .rightsection{
+            background-color:transparent;
+            margin: 50px 90px;
+            width: 30%;
+            
+ 
+           
+        }
+
+        .namedeco{
+            color: rgb(241, 95, 165);
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            
+            font-size: 1.02rem;
+            color: plum;
+        }
+        #element{
+            color: rgb(174, 70, 226);
+        }
+        .rounded-image {
+            border-radius: 50%;
+          }
+
+         
+       .secondpart{
+        
+        display: flex;
+        margin: 13vh 0;
+        justify-content: space-around;
+        height: 100%;
+        
+       }
+       
+       
+       main hr{
+        border: 0;
+        
+        background-image: url('https://r1.ilikewallpaper.net/iphone-8-wallpapers/download/34408/Purple-Night-Blurred-Background-iphone-8-wallpaper-ilikewallpaper_com.jpg');
+        background-size: cover;
+        height: 3.2px;
+        margin: 20px 90px;
+       }
+     h1{
+        color: rgb(187, 156, 215);
+        margin: 10px 520px;
+        font-size: 40;
+        font-size: 36px;
+        font-weight: bold;
+        color: #fff; /* Text color */
+        text-shadow: 0 0 10px rgb(82, 182, 202), 0 0 20px rgb(149, 111, 196), 0 0 30px rgb(185, 71, 147);
+     }
+     .midchng{
+        color: rgb(185, 76, 190);
+     }
+     .leftabt{
+        width: 80%;
+        margin: 0 110px;
+        background-image: url('');
+        border-radius: 20pxl;
+        background-size: cover;
+        font-size: x-large;
+        font-family: Dancing+Script;
+     }
+     .rightabt{
+        width: 50%;
+        margin: 0 30px;
+     }
+     .aboutme{
+        margin: 20px 0;
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+     }
+       *{
+        box-sizing: border-box;
+       }
+       .upperc{
+        float: left;
+        width: 47.3%;
+        padding: 5px;
+
+       }
+       .lowerc{
+        float: left;
+        width: 33.3%;
+        padding: 5px;
+       }
+       .cerbox{
+        margin: 20px 150px;
+        box-shadow: #0056b3,rgb(129, 99, 156),pink;
+        content: "";
+        display: table;
+        clear: both;
+       }
+       .cerbox:hover{
+        transform: scale(1.1);
+
+       }
+       
+       .thead{
+        color: rgb(153, 110, 202);
+         ;
+        font-size: x-large;
+        font-size: 36px;
+        font-weight: bold;
+        color: #fff; /* Text color */
+        text-shadow: 0 0 10px rgb(151, 115, 205), 0 0 20px rgb(181, 96, 205), 0 0 30px rgb(0, 136, 255);
+     
+       }
+       .catecol{
+        color:rgb(108, 172, 172)
+        
+        
+       }
+       .bhead{
+        font-size: 10px;
+        font-size: 36px;
+        font-weight: bold;
+        color: #fff; /* Text color */
+        text-shadow: 0 0 10px rgb(151, 115, 205), 0 0 20px rgb(181, 96, 205), 0 0 30px rgb(0, 136, 255);
+       }
+       .contentdes{
+        width:360px ;
+        height:300px ;
+        position: absolute;
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.5); 
+        padding: 10px;
+        opacity: 0; 
+        transition: opacity 0.3s; 
+       }
+       .contentdes:hover{
+        opacity: 1;
+       }
+       .headercer{
+        
+        font-size: 36px;
+        font-weight: bold;
+        color: #fff; /* Text color */
+        text-shadow: 0 0 10px rgb(151, 115, 205), 0 0 20px rgb(181, 96, 205), 0 0 30px rgb(0, 136, 255);
+       }
+
+       .shead{
+        
+        font-size: 410px;
+        font-size: 36px;
+        font-weight: bold;
+        color: #fff; /* Text color */
+        text-shadow: 0 0 10px rgb(82, 223, 174), 0 0 20px rgb(94, 197, 223), 0 0 30px rgb(218, 56, 204);
+
+       }
+
+       h3{
+
+        margin: 05px 10px;
+        margin-bottom: 10px;
+        font-size: 23px;
+        font-weight: bold;
+        color: #060505; /* Text color */
+        text-shadow: 0 0 10px rgb(195, 47, 84), 0 0 20px rgb(35, 32, 194), 0 0 30px rgb(91, 41, 198);
+
+       }
+      
+       .container {
+        max-width: 1000px;
+        margin: 20px auto;
+        background-color:transparent;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(255, 254, 255, 0.2);
+    }
+
+
+       .skill-bar {
+        background-color: #e0e0e0;
+        height: 20px;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+
+    .skill-bar-fill {
+        
+        background-color: #834cc2;
+        height: 100%;
+        border-radius: 5px;
+       
+        animation: width-fill 2s ease-out forwards; 
+    }
+    .pskill-bar-fill {
+        
+        background-color: #d35a85;
+        height: 100%;
+        border-radius: 5px;
+       
+        animation: width-fill 2s ease-out forwards; 
+    }
+
+    .skill {
+        margin: 10px 0;
+    }
+
+    
+
+    @keyframes fill {
+        from {
+            width: 0;
+        }
+        to {
+            width: var(--skill-percent, 0%);
+        }
+    }
+
+    .contact {
+        background-color: #101010;
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    h2 {
+        color: #333;
+    }
+    
+    p {
+        color: #020102;
+    }
+    
+    form {
+        margin-top: 20px;
+    }
+    
+    label {
+        display: block;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    
+    input,
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #33d0a9;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    
+    button:hover {
+        background-color: #d929bf;
+    }
+
+    .social-icons {
+        margin-top: 20px;
+    }
+    
+    .icon {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        margin: 0 10px;
+        background-size: cover;
+        transition: transform 0.2s, opacity 0.2s;
+    }
+    .instagram {
+        background-image: url('instagram-icon.png'); 
+    }
+    
+    .linkedin {
+        background-image: url('linkedin-icon.png'); 
+    }
+    
+   
+    .icon:hover {
+        transform: scale(1.2);
+        opacity: 0.8;
+        box-shadow: 0 0 15px rgba(132, 210, 218, 0.7); 
+    }
+   .contactpara{
+    color: #5edbd3;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+       
+    
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">MyPortfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#contactme">contact me</a></li>
+                </ul>
+
+
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <section class="firstpart" id="home">
+
+            <div class="leftsection">
+                
+             Hello, I am
+            <span class="namedeco">Akansha</span>
+            and my heart brims with a fervent passion for learning
+            and my heart resonates with a deep and unwavering passion for
+            
+            <span id="element"></span>
+            <div class="buttons">
+
+                <a href="Final CV2.pdf"><button class="btn">Download Resume</button></a>
+                <button class="btn">visit Github</button>
+
+            </div>
+
+              </div>
+     
+
+            <div class="rightsection">
+               <img src="mp.jpeg" class="rounded-image" width="360" height="340" alt="">
+            </div>
+            
+        </section>
+        <hr>
+        <section class="Secondpart" id="about">
+            <h1 class="text-grey">All<span class="midchng"> about</span> me</h1>
+
+            <div class="leftabt">
+                <div class="aboutme">I am a passionate individual who constantly seeks new challenges and opportunities for personal growth.
+                    My journey through life is marked by an unwavering spirit of endeavor,
+                    a driving force that fuels my pursuit of knowledge and skills.
+                    I have a profound love for drawing, finding immense joy and solace in the strokes of a pencil or brush. 
+                    Learning is at the core of my existence; it is a never-ending adventure. 
+                    Coding, app development, and web development are my chosen avenues for creative expression and problem-solving, where I find solace in crafting digital solutions.
+                    My enthusiasm for these fields is boundless, and I am always eager to embark on new projects, conquer fresh coding challenges, and continue my relentless quest to learn and innovate.</div>
+            </div>
+
+            <div class="rightabt">
+                <img src="ammg.png"  class="abtimg"  width="560" height="540" alt="">
+                
+            </div>
+
+        </section>
+        <section class="thirdpart" id="certificates">
+            <h1 class="thead">Certifi<span class="catecol">cates</span></h1>
+            <div class="upperc">
+            <div class="cerbox"><img src="c1.jpeg"width="360" height="340" alt="">
+                <div class="contentdes"><p class="headercer">Certificate by Ibm on Building Iot blockchain Netwrok for a supply chain</p>
+                    
+                </div>
+            </div>
+
+          
+           
+            <div class="cerbox"><img src="c3.jpeg"width="360" height="340" alt="">
+                <div class="contentdes"><p class="headercer">Certificate by Ibm for completion and passing a course of Introduction to cloud</p>
+                    
+                </div>
+            </div>
+          
+            
+            
+            
+        </div>
+        <div class="lowerc">
+            <div class="cerbox"><img src="c2.jpeg" width="360" height="340" alt="">
+                <div class="contentdes"><p class="headercer">Certificate by Great Learning on completion and passing a course of oops in java</p>
+                    
+                </div>
+            </div>
+            
+            <div class="cerbox"><img src="c4.jpeg" width="360" height="340" alt="">
+                <div class="contentdes"><p class="headercer">Certificate by Exposys on completion of a Internship Under Cyber Security domain</p>
+                    
+                </div>
+            
+            </div>
+        </div>
+
+        </section>
+      
+        <section class="Fourthpart" id="skills">
+            
+            <h1 class="shead">My <span class="catecol">Skills</span></h1>
+            
+               
+                <div class="container">
+                    <h3>Technical <span> skills</span></h3> 
+            
+                    <div class="skill">
+                        <p>HTML/CSS</p>
+                        <div class="skill-bar">
+                            <div class="skill-bar-fill" style="width: 60%;"></div>
+                        </div>
+                    </div>
+            
+                    <div class="skill">
+                        <p>Flutter</p>
+                        <div class="skill-bar">
+                            <div class="skill-bar-fill" style="width: 90%;"></div>
+                        </div>
+                    </div>
+            
+                    <div class="skill">
+                        <p>Python</p>
+                        <div class="skill-bar">
+                            <div class="skill-bar-fill" style="width: 75%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <p>Java</p>
+                        <div class="skill-bar">
+                            <div class="skill-bar-fill" style="width: 65%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <p>C</p>
+                        <div class="skill-bar">
+                            <div class="skill-bar-fill" style="width: 85%;"></div>
+                        </div>
+                    </div>
+            
+                    <div class="skill">
+                        <p>Web Development</p>
+                        <div class="skill-bar">
+                            <div class="skill-bar-fill" style="width: 40%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <h3>Professional <span> skills</span></h3>
+                    <div class="skill">
+                        <p>Articulacy</p>
+                        <div class="skill-bar">
+                            <div class="pskill-bar-fill" style="width: 40%;"></div>
+                        </div>
+                        <div class="skill">
+                            <p>leadership</p>
+                            <div class="skill-bar">
+                                <div class="pskill-bar-fill" style="width: 70%;"></div>
+                            </div>
+                          <div class="skill">
+                                <p>Team-work</p>
+                                <div class="skill-bar">
+                                    <div class="pskill-bar-fill" style="width: 90%;"></div>
+                                </div>
+                                
+                    </div>
+                   
+
+
+                </div>
+            </body>
+            </html>
+            
+
+
+        </section>
+
+        <section class="Fifthpart" id="Contactme">
+              <h1>Contact Me</h1>
+            <div class="contact"> 
+                <div>Contact Me</div>
+                <p>Feel free to get in touch with me.</p>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+
+            <div class="contact2">
+                <div class="contactpara">Feel free to connect with me on social media:</div>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/aerenyg" target="_blank" class="icon instagram"></a>
+                    <a href="https://www.linkedin.com/in/akansha-tribedy" target="_blank" class="icon linkedin"></a>
+                 
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web development', 'App development','animation.'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
